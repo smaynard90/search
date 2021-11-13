@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="templates/styles.css">
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="header-advanced">
+            <div class="header-logo">
+                <img src="templates/google_logo.png" alt="Google Logo" height="24" width="auto">
+            </div>
+            <div class="header-links">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="advanced-search-text-area">
+                <div class="advanced-search-text">
+                    <span>Advanced Search</span>
+                </div>
+            </div>
+            <div class="advanced-search-fields-area">
+                <form action="https://google.com/search" method="GET" name="f">
+
+                    <div class="advanced-search-fields">
+                        <div class="field-box">
+                            <span class="advanced-description">Find pages with...</span>
+                            <span class="advanced-explanation">To do this in the
+                                search box</span>
+                        </div>
+                        <div class="field-box">
+                            <span class="advanced-instructions">all these words:</span>
+                            <input class="advanced-search-bar" name="as_q" type="text" autocomplete="off">
+                            <span class="advanced-example">Type the important words: tricolor rat terrier</span>
+                        </div>
+                        <div class="field-box">
+                            <span class="advanced-instructions">this exact word or
+                                phrase:</span>
+                            <input class="advanced-search-bar" name="as_epq" type="text" autocomplete="off">
+                            <span class="advanced-example">Put exact words in
+                                quotes:
+                                "rat terrier"</span>
+                        </div>
+                        <div class="field-box">
+                            <span class="advanced-instructions">any of these words:</span>
+                            <input class="advanced-search-bar" name="as_oq" type="text" autocomplete="off">
+                            <span class="advanced-example">Type OR between all the
+                                words you want: miniature OR standard</span>
+                        </div>
+                        <div class="field-box">
+                            <span class="advanced-instructions">none of these
+                                words:</span>
+                            <input class="advanced-search-bar" name="as_eq" type="text" autocomplete="off">
+                            <span class="advanced-example">Put a minus sign just
+                                before words you don't want: -rodent, -"Jack Russell"</span>
+                        </div>
+                        <div class="field-box">
+                            <input id="advanced-search-button" value="Advanced Search" type="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
